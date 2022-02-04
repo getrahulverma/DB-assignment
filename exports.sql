@@ -1,3 +1,4 @@
+-- First create directory, give permissions & then do the export
 
 Create directory my_dir as 'server_full_path';
 
