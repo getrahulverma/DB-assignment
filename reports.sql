@@ -1,4 +1,8 @@
+-- Two reports
+
 -- Create view to generate report for products most sold in different countries in last 7 days
+-- This will display the details of Product which is most sold in last 7 days across ifferent countries
+
 
 CREATE VIEW PRODMOSTSOLD_LAST7DAYS AS
 SELECT PRODUCTID,PRODUCTNAME,QTY_SOLD 
@@ -24,6 +28,7 @@ WHERE RN=1;
 
 
 -- Create view to generate report for customer who placed maximum orders in different countries in last 7 days
+-- This will display the details of Customer which has placed most orders in last 7 days across ifferent countries
 
 CREATE VIEW CUSTMOSTORDERS AS
 SELECT CUSTOMERID, NAME, ADDRESS, WEBSITE, FACEBOOK, TWITTER, WHATSAPP, ORDERCOUNT
