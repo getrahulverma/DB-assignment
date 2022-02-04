@@ -1,3 +1,5 @@
+-- Login as "onlinestoredb" & run below
+
 -- Remove Triggers
 DROP TRIGGER TRG_ORDER_ITEMS_AUD;
 DROP TRIGGER TRG_ORDERS_AUD;
