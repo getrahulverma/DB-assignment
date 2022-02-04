@@ -1,3 +1,4 @@
+-- Create main schema
 -- Run as sysdba
 
 CREATE USER onlinestoredb IDENTIFIED BY onlinestoredb_pwd;
