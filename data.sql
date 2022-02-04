@@ -1,3 +1,5 @@
+-- Login as onlinestoredb & run below
+
 -- Regions data entry
 INSERT INTO REGIONS (REGIONID, REGIONNAME) VALUES (1,'AMERICAS');
 INSERT INTO REGIONS (REGIONID, REGIONNAME) VALUES (2,'APAC');
